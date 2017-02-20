@@ -16,7 +16,7 @@ Vagrant.configure(2) do |config|
     aws.secret_access_key = ec2_config["secret_access_key"]
     aws.keypair_name = ec2_config["keypair_name"]
 
-    aws.ami = "ami-315f4850"
+    aws.ami = "ami-52588732"
     aws.instance_type = "g2.2xlarge"
     aws.security_groups = ec2_config["security_groups"]
     aws.region = "us-west-2"
